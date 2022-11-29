@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 
 import IncomePage from "./pages/IncomePage";
 import OutputPage from "./pages/OutputPage";
 import DiagramPage from "./pages/DiagramPage";
 import RegistrationPage from "./pages/RegistrationPage";
 import LoginPage from "./pages/LoginPage";
+import HomePage from "./pages/HomePage/HomePage";
 
 const PAGES_ROUTES = [
   {
